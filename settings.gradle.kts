@@ -12,5 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "SimpleCalculator"
-include ':app'
+
+rootProject.name = "calculator"
+include(":app")
+ 
